@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-#
-<h1> Da projects list </h1>
-=======
+
+
 # BMW Sales Intelligence Platform 🚗
 
 ## Overview
@@ -53,4 +51,4 @@ BMW_DA/
 -   Integrate more complex models (XGBoost, Neural Networks).
 -   Add real-time data fetching.
 -   Deploy to cloud (AWS/Heroku/Streamlit Cloud).
->>>>>>> 2cab5a1 (Initial commit - BMW Sales Intelligence Project)
+

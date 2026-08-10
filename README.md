@@ -48,14 +48,8 @@ The project uses the following Python packages:
    pip install -r requirements.txt
    ```
 
-## Project Structure
 
-```
-DA_Projects/
-├── README.md
-├── requirements.txt
-└── [project files and directories]
-```
+
 
 ## Usage
 

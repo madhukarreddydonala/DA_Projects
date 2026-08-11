@@ -59,7 +59,7 @@ This project does not require environment variables for local execution.
 ## Installation
 
 1. Install Python 3.9 or higher.
-2. Open a terminal in the `hotel_booking` folder.
+2. Open a terminal in the `hotel_booking_da` folder.
 3. Create and activate a virtual environment (recommended):
 
 ```bash
@@ -81,7 +81,7 @@ pip install notebook
 
 ## Running Locally
 
-From the `hotel_booking` folder:
+From the `hotel_booking_da` folder:
 
 - Run data preprocessing overview:
 

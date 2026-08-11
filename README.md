@@ -1,14 +1,14 @@
 # DA Projects
 
-A collection of Data Analysis projects utilizing Python libraries for data processing, analysis, visualization, and interactive dashboards.
+A repository containing a hotel booking cancellation analysis project built with Python and Jupyter notebooks.
 
 ## Project Overview
 
-This repository contains multiple data analysis projects built with Python.
+This repository currently includes the `hotel_booking_da` project, which explores hotel booking data, generates automated EDA reports, and prepares dataset preprocessing for modeling.
 
 ## Prerequisites
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - pip package manager
 
 ## Dependencies
@@ -16,24 +16,25 @@ This repository contains multiple data analysis projects built with Python.
 The project uses the following Python packages:
 - **numpy** - Numerical computing and array operations
 - **pandas** - Data manipulation and analysis
-- **scikit-learn** - Machine learning algorithms
+- **scikit-learn** - Machine learning algorithms and preprocessing
 - **matplotlib** - Data visualization
 - **seaborn** - Statistical data visualization
-- **streamlit** - Interactive web app framework for data applications
+- **plotly** - Interactive charts in notebooks
+- **ydata-profiling** - Automated exploratory data analysis reports
 
 ## Installation & Initialization
 
-1. **Clone or navigate to the project directory:**
+1. Open a terminal in the repository root:
    ```bash
-   cd DA_Projects
+   cd "c:\Users\madhu\Desktop - Copy\da\DA_Projects"
    ```
 
-2. **Create a virtual environment (recommended):**
+2. Create a virtual environment (recommended):
    ```bash
    python -m venv venv
    ```
 
-3. **Activate the virtual environment:**
+3. Activate the virtual environment:
    - On Windows:
      ```bash
      venv\Scripts\activate
@@ -43,18 +44,40 @@ The project uses the following Python packages:
      source venv/bin/activate
      ```
 
-4. **Install dependencies:**
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-
-
+5. (Optional) Install Jupyter if you want to run notebooks:
+   ```bash
+   pip install notebook
+   ```
 
 ## Usage
 
-To run any data analysis scripts or Streamlit applications in this project, refer to individual project documentation.
+Use the `hotel_booking_da` folder for the current hotel booking analysis project.
+
+- Run dataset overview and preprocessing helper:
+  ```bash
+  python hotel_booking_da\preprocess.py
+  ```
+
+- Generate the automated EDA report:
+  ```bash
+  python hotel_booking_da\autoeda.py
+  ```
+
+- Open notebooks for interactive analysis:
+  ```bash
+  jupyter notebook
+  ```
+  Then open `hotel_booking_da/data_explore.ipynb` or `hotel_booking_da/eda.ipynb`.
+
+## Notes
+
+This project is notebook-first and designed for local analysis. If you expand it later, consider adding model training scripts, dashboards, or API endpoints.
 
 ## License
 
-Please check the project for license information.
+No license is included in this repository at this time.
